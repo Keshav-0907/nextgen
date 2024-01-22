@@ -3,6 +3,7 @@ import { useSpring, animated } from "react-spring";
 import Link from "next/link";
 import { IoIosMenu } from "react-icons/io";
 import { useState } from "react";
+import Joinbutton from "./Joinbutton";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -17,14 +18,18 @@ const Navbar = () => {
   });
 
   return (
-    <div className="border-b-2 border-gray-200 h-14 flex flex-row justify-between md:px-10 px-5 items-center">
-      <div className="font-bold text-2xl md:text-3x">Next-Gen</div>
+    <div className="border-b-2 font-inika border-gray-200 h-14 flex flex-row justify-between md:px-10 px-5 items-center">
+      <div className="bg-gradient-to-r text-2xl font-bold from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Next-Gen</div>
 
       <div className="hidden md:flex justify-center items-center space-x-10">
         <Link href={"/"}>Home</Link>
         <Link href={"/cohort"}>Cohort</Link>
         <Link href={"/blogs"}>Blogs</Link>
         <Link href={"/about"}>About</Link>
+      </div>
+
+      <div>
+        <Joinbutton text={'Join Cohort'}/>
       </div>
 
       <div
