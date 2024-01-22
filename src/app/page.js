@@ -15,7 +15,7 @@ export default function Home() {
       <WhatYouGet/>
       <Speakrs/>
       <Faqs/>
-      <Footer/>
+      
     </main>
   );
 }

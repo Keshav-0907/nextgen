@@ -33,7 +33,7 @@ const Countdown = () => {
     }, []);
 
     return (
-        <div className='flex justify-center items-center flex-col h-fit py-20 gap-3 bg-gray-100'>
+        <div className='flex font-inika justify-center items-center flex-col h-fit py-20 gap-3 bg-gray-100'>
             <div className='md:text-6xl text-3xl font-medium mb-6'>
                 Event Will Start in
             </div>

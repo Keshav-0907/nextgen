@@ -4,8 +4,8 @@ import React, { useEffect, useState } from "react"
 
 const Faqs = () => {
   return (
-    <div className="px-32 py-5">
-      <div class="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
+    <div className="px-32 py-5 font-inika">
+      <div class="max-w-screen-xl mx-auto bg-white min-h-sceen">
         <div class="flex flex-col items-center">
           <h2 class="font-bold text-5xl mt-5 tracking-tight">
             FAQ

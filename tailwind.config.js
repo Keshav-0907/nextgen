@@ -8,8 +8,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        inika: "'Inika', serif"
+        inika: "'Inika', serif",
+        Montserrat: "'Montserrat', serif"
       },
+
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

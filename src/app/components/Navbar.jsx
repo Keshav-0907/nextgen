@@ -18,10 +18,10 @@ const Navbar = () => {
   });
 
   return (
-    <div className="border-b-2 font-inika border-gray-200 h-14 flex flex-row justify-between md:px-10 px-5 items-center">
-      <div className="bg-gradient-to-r text-2xl font-bold from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Next-Gen</div>
+    <div className="border-b-2 w-full shadow-xl font-inika border-gray-200 h-14 flex flex-row justify-between md:px-10 px-5 items-center top-0 bg-white z-50 fixed">
+      <div className="bg-gradient-to-r text-2xl font-bold from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Next-Gen ka logo</div>
 
-      <div className="hidden md:flex justify-center items-center space-x-10">
+      <div className="hidden md:flex justify-center items-center space-x-10 text-lg">
         <Link href={"/"}>Home</Link>
         <Link href={"/cohort"}>Cohort</Link>
         <Link href={"/blogs"}>Blogs</Link>

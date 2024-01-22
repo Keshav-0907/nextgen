@@ -2,4 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.hero-main {
+    background-image: url('./assets/final_bg.png');
+    background-size: 100%; /* Adjusted property */
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
